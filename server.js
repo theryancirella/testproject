@@ -12,7 +12,7 @@ app.listen(port, () => {
 });
 
 // express code 
-const socketServer = new WebSocket.Server({port: 3030});
+const socketServer = new WebSocket.Server({port: 6969});
 
 const messages = ['Start Chatting!'];
 socketServer.on('connection', (socketClient) => {
